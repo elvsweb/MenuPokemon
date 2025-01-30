@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Informações</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lilita One', cursive;
+        background-color: #00034e;
+        color: #FBF700;
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+  
+      body::before {
+        content: "";
+        background-image: url('pokemon.jpeg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+  
+      .container {
+        max-width: 800px;
+        padding: 20px;
+        border: 5px solid #FBF700;
+        border-radius: 15px;
+        background-color: rgba(0, 3, 78, 0.5);
+      }
+  
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+      }
+  
+      .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: normal;
+        color: #fff;
+        background-color: #C30000;
+        text-decoration: none;
+        border: 5px solid #00034e;
+        border-radius: 10px;
+        padding: 10px 30px;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+  
+      .back-button:hover {
+        background-color: #A30000;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Olá, seja bem vindo!</h1>
+      <p> 
+        Este sistema oferece uma experiência única, permitindo que você adicione, liste, atualize ou delete os pokémons que encontrar. Torne-se o melhor treinador 
+        e se divirta ao longo da sua jornada.
+      </p>
+      <p>
+        Crie memórias inesquecíveis. Boa experiência, treinador!
+      </p>
+      <a href="index.html" class="back-button">Voltar</a>
+    </div>
+  </body>
+  </html>
